@@ -1,0 +1,419 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	height: 100%;
+}
+.wrapper {
+	min-width: 1000px;
+	max-width: 1000px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	background-color: #fcfcfc;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 150px;
+	padding-top:20px;
+}
+
+form[name="search"]{
+	float: right;
+	margin-top:15px;
+
+}
+
+ button{
+    color: #fff;
+	background-color: #29c5e6;
+	border: none;
+	height: 22px;
+	font-family: 'Oswald', sans-serif;
+}
+}
+
+.top-menu{
+	margin-top:15px;
+	text-align:center;
+}
+header ul{
+	margin-left:4px;
+}
+.top-menu a {
+	text-decoration: none;
+	color:#b2b2b2;
+}
+
+.top-menu li {
+font: 14px 'Oswald', sans-serif;
+font-weight:bold;
+display:inline-block;
+border: 1px solid #F8F8FF;
+background-color:#F8F8FF;
+padding: 15px 27px 15px 27px;
+margin: -2px;
+}
+
+.top-menu li:hover{
+	background-color: #29c5e6;
+}
+
+.top-menu  a:hover{
+	color:#fff;
+}
+
+.head-menu{
+ background-color:#F8F8FF;
+background: transparent url(../images/h1-bg.png);
+margin: 15px 0;
+padding-left: 20px;
+}
+
+h1 {
+	display: inline-block;
+	color: #7e7e7e;
+	font: 27px/27px 'Oswald', sans-serif;
+	background: url(../images/bg.png);
+	margin: 0;
+	padding: 0 10px;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	width: 100%;
+	padding: 0 0 100px;
+	position: relative;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+.content {
+	padding: 0 0 0 270px;
+}
+blockquote{
+	background-color: #29c5e6;	
+	padding: 10px 20px;
+	font-weight: 300;
+	margin:0;
+}
+
+blockquote p{
+	color: #fff;
+	font: 25px 'Oswald', sans-serif;
+	font-style: italic;
+	margin: 0;
+}
+
+blockquote cite{
+	font: 25px 'Oswald', sans-serif;
+	display: block;
+	text-align: right;
+	font-style: normal;
+	color: #1d8ea6;
+	font-size: 15px;
+}
+
+.content > p{
+	display: block;
+	 margin-top: 0.5em;
+	 font-style: normal;
+	 font: 16px 'Oswald', serif;
+}
+
+.content-image-1{
+	display: inline-block;
+	float: left;
+	margin: 10px 0 5px 5px; 
+	clear: both  ;
+}
+
+.content-image-2{
+	display: inline-block;
+	float: right;
+	margin: 10px 0 5px 5px; 
+
+}
+ .gallery > h2{
+	color: #fff;
+	background-color: #29c5e6;
+	font: 14px 'Oswald', sans-serif;
+	padding: 10px;
+	margin: 200px 0 0 0;
+}
+
+.team {
+	display: block;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.team .team-list {
+	display: block;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.team .team-list > li {
+	float: left;
+	width: 20%;
+
+}
+
+.team .team-list > li > figure > img {
+	width: 80%;
+	height: auto;
+	border: 1px solid #29c5e6;
+	margin: 10px;
+	padding: 2px;
+}
+
+figcaption{
+	padding-left:15px;
+	font: 14px "Oswald", serif;
+	color: #b2b2b2;
+	font-weight: bold;
+}
+
+figcaption p{
+	font: 14px "Oswald", sans-serif;
+	color: #29c5e6;
+}
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+	float: left;
+	width: 250px;
+	margin-left: -100%;
+	position: relative;
+}
+
+.left-menu a{
+	text-decoration: none;
+	color:#b2b2b2;
+}
+
+.left-menu li{
+	border: 1px solid #F8F8FF;
+	list-style-type: square;
+	list-style-position: inside;
+	font: 13px 'Oswald', sans-serif; 
+	background-color:#F8F8FF;
+	font-weight: bold;
+	padding: 15px 0 15px 0; 
+	padding-left:10px;
+}
+
+.left-menu li:hover{
+	background-color:#29c5e6;
+}
+
+.left-menu a:hover{
+	color: #fff;
+}
+
+ h2{
+	color: #fff;
+	background-color: #29c5e6;
+	font: 14px 'Oswald', sans-serif;
+	padding: 10px;
+	margin: 20px 0 0 0;
+}
+
+aside > p{
+	background: #f3f3f3;
+	border: 1px solid #e7e7e7;
+	padding: 10px;
+	margin: 0;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	margin: -80px auto 0;
+	min-width: 1000px;
+	max-width: 1000px;
+	height: 120px;
+	position: relative;
+	background: #7e7e7e;
+}
+
+footer h3{
+	font: 14px 'Oswald', sans-serif;
+	color: #fff;
+}
+
+.twitter time a{
+	color: #b4aeae;
+}
+
+footer p {
+	margin: 5px 0;
+	color: #dbdbdb;
+}
+
+.twitter {
+	float: left;
+	width: 300px;
+	margin-left: 10px;
+}
+
+footer a {
+	color: #dbdbdb;
+}
+
+.sitemap{
+	width: 150px;
+	float: left;
+	margin-left: 20px;
+	padding-right: 15px;
+}
+
+.sitemap div{
+	display: inline-block;
+}
+
+.sitemap a{
+	display: block;
+	text-decoration: none;
+	margin-top: 5px;
+}
+
+.sitemap a:hover {
+	text-decoration: underline;
+}
+
+.sitemap div+div{
+	margin-left:40px;
+}
+
+.social{
+	float: left;
+	margin-left: 20px;
+	width: 150px;
+}
+
+
+.social-icon {
+	width: 30px;
+	height: 30px;
+	background: url(../images/social.png) no-repeat;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.social-icon-small  {
+	width: 16px;
+	height: 16px;
+	background: url(../images/social-small.png) no-repeat;
+	display: inline-block;
+	margin: 5px 8px 0 0;
+}
+
+.twitter {
+	background-position: 0 0;
+}
+
+.facebook {
+	background-position: -30px 0;
+}
+
+.google-plus {
+	background-position: -60px 0;
+}
+
+.vimeo {
+	background-position: 0 0;
+}
+
+.youtube {
+	background-position: -16px 0;
+}
+
+.flickr {
+	background-position: -32px 0;
+}
+
+.instagram {
+	background-position: -48px 0;
+}
+
+.rss {
+	background-position: -64px 0;
+}
+
+.footer-logo {
+	float: right;
+	margin-top: 50px;
+	font-size: 10px;
+	text-align: right;
+}
+footer hr{
+	 height: 1px;
+}
